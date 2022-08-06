@@ -1,4 +1,4 @@
-import { watchFile, unwatchFile } from 'fs'
+¹import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
@@ -6,16 +6,16 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6282195322106', '️Oᴡɴᴇʀ One ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Two ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Three ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Four ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Five ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Six ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
+  ['6282396055503', '️Oᴡɴᴇʀ One ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Two ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Three ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Four ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Five ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Six ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6282396055503', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
 ]
 global.mods = []
 global.prems = []
@@ -71,15 +71,15 @@ let keyalpha = api[Math.floor(Math.random() * api.length)]
 global.apikeys = keyalpha
 
 /*Number*/
-global.nomorbot = '6281291155341'
-global.nomorown = '6281291155341'
-global.namebot = 'タRyuuzxyツ'
-global.nameown = 'Oᴡɴᴇʀ R么ғғᴜʀɪ'
+global.nomorbot = '+380 68 021 9331'
+global.nomorown = '6282396055503'
+global.namebot = 'タRsanBottツ'
+global.nameown = 'Oᴡɴᴇʀ R么ll'
 
 /*Watermark*/
-global.wm = '                「 タRyuuzxyツ⁩ 」'
+global.wm = '                「 タSannMDツ⁩ 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ タRyuuzxyツ'
+global.wm3 = '⫹⫺ タSannMDツ'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -374,9 +374,9 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://instagram.com/raffuri'
-global.sgh = 'https://github.com/ZynnZx'
-global.sgc = 'https://chat.whatsapp.com/EkXJNvNUcpC9z3IjnotbOQ'
+global.sig = 'https://instagram.com/kominfoajg'
+global.sgh = 'https://github.com/IrsannGzRill'
+global.sgc = 'https://chat.whatsapp.com/EkXvNUcpC9z3IjnotbOQ'
 global.sdc = 'https://xnxx.com'
 global.snh = 'https://xnxx.com'
 
@@ -419,10 +419,10 @@ global.lolm = 'Ⓛ'
 global.htjava = '⫹⫺'
 
 /*Watermark*/
-global.stickpack = 'R么ғғᴜʀɪ - 085778411638'
+global.stickpack = '\n\n\nR么ll -'
 global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'R么ғғᴜʀɪ'
+global.author = 'R么ll'
 global.multiplier = 69
 
 /*Pesan*/
@@ -434,18 +434,18 @@ global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2
 global.gcwangsaf = 'https://chat.whatsapp.com/EkXJNvNUcpC9z3IjnotbOQ'
 
 /*Donasi*/
-global.saweria = 'https://saweria.co/Rapuli'
-global.dana = '085778411638'
-global.pulsa = '085778411638'
-global.trakteer = 'https://trakteer.id/rapuli'
-global.paypal = 'wakay4ma@gmail.com'
-global.gopay = '085778411638'
-global.pdana = '085778411638'
-global.povo = '085778411638'
-global.pgopay = '085778411638'
-global.ppulsa = '085778411638'
-global.ppulsa2 = '081291155341'
-global.psaweria = 'https://saweria.com/Rapuli'
+global.saweria = 'https://saweria.co/'
+global.dana = '6282396055503'
+global.pulsa = '6282396055503'
+global.trakteer = 'https://trakteer.id/'
+global.paypal = 'gada@gmail.com'
+global.gopay = '-'
+global.pdana = '6282396055503'
+global.povo = '-'
+global.pgopay = '-'
+global.ppulsa = '6282396055503'
+global.ppulsa2 = '6282396055503'
+global.psaweria = 'https://saweria.com/'
 
 /*Emoji*/
 global.rpg = {
